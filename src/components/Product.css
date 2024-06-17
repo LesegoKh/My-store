@@ -1,0 +1,34 @@
+/* Product.css */
+.product {
+  text-align: center;
+}
+
+.product-image {
+  cursor: pointer;
+  max-width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.zoom-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.zoom-image {
+  flex: 1;
+  max-width: 500px;
+  padding: 0 20px;
+}
+
+.description {
+  flex: 1;
+  max-width: 300px;
+  padding: 0 20px;
+}
+
+.description h4 {
+  margin-top: 0;
+}
